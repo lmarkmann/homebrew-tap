@@ -1,8 +1,8 @@
 class Celsius < Formula
   desc "Terminal weather as a first-person sky view"
   homepage "https://github.com/lmarkmann/celsius"
-  url "https://github.com/lmarkmann/celsius/archive/refs/tags/v0.1.0.tar.gz"
-  sha256 "fec8ca7821e3642dd5df6ba98e793dbe61b8232afe934a649a3f54f3c89bfd1d"
+  url "https://github.com/lmarkmann/celsius/archive/refs/tags/v0.2.0.tar.gz"
+  sha256 "fd5ca42c1a03e19fc1fb6add3a370fc65cd1bac6a767199e08aaa2d866a49521"
   license "MIT"
   head "https://github.com/lmarkmann/celsius.git", branch: "main"
 
