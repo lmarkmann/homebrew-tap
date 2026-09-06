@@ -1,29 +1,29 @@
 class Celsius < Formula
   desc "Terminal weather as a first-person sky view"
   homepage "https://github.com/lmarkmann/celsius"
-  version "0.8.0"
+  version "0.8.1"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/lmarkmann/celsius/releases/download/v0.8.0/celsius-v0.8.0-aarch64-apple-darwin.tar.gz"
-      sha256 "dce574f9aee8c3055ffab0e2a7920886694ed4cc60f00f3c23b879419a9666ee"
+      url "https://github.com/lmarkmann/celsius/releases/download/v0.8.1/celsius-v0.8.1-aarch64-apple-darwin.tar.gz"
+      sha256 "81105ab3d3627e2e859cb486ad88b6c7cf9ce3bde2e066dea65978c8fdb94c21"
     end
     on_intel do
-      url "https://github.com/lmarkmann/celsius/archive/refs/tags/v0.8.0.tar.gz"
-      sha256 "843fdfd0e6a1688778fc28c8599b4051a5d78b6560b29cbab3724778f1924fb7"
+      url "https://github.com/lmarkmann/celsius/archive/refs/tags/v0.8.1.tar.gz"
+      sha256 "cdc79a4551a5e0a5c9cde4e0e7f6d72e9854d870653dfb8af18732f90350307d"
       depends_on "rust" => :build
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/lmarkmann/celsius/releases/download/v0.8.0/celsius-v0.8.0-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "4fe13a3f01c244027c9f6d8800a9a991315feeb5099c88adbf2cf7f3a90dbd11"
+      url "https://github.com/lmarkmann/celsius/releases/download/v0.8.1/celsius-v0.8.1-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "3fc5b64dc80cf1e827c429c8dafd85350bafc6940e6efda02e47b0c05421424a"
     end
     on_arm do
-      url "https://github.com/lmarkmann/celsius/archive/refs/tags/v0.8.0.tar.gz"
-      sha256 "843fdfd0e6a1688778fc28c8599b4051a5d78b6560b29cbab3724778f1924fb7"
+      url "https://github.com/lmarkmann/celsius/archive/refs/tags/v0.8.1.tar.gz"
+      sha256 "cdc79a4551a5e0a5c9cde4e0e7f6d72e9854d870653dfb8af18732f90350307d"
       depends_on "rust" => :build
     end
   end
