@@ -1,11 +1,10 @@
 # homebrew-tap
 
-Homebrew tap for [lmarkmann/celsius](https://github.com/lmarkmann/celsius).
+Homebrew formulae for [celsius](https://github.com/lmarkmann/celsius) and [dataseek](https://github.com/lmarkmann/dataseek).
 
 ```sh
 brew install lmarkmann/tap/celsius
+brew install lmarkmann/tap/dataseek   # installs dataseek and dsk
 ```
 
-Formulae here are built from source via `cargo install`. Version bumps after
-v0.1.0 are automated by the `release.yml` workflow in the celsius repo, which
-runs `mislav/bump-homebrew-formula-action` on every `v*` tag push.
+Each project's release workflow rewrites its formula here on every release.
