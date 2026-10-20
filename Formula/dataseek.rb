@@ -1,28 +1,28 @@
 class Dataseek < Formula
   desc "Search for datasets from the terminal"
   homepage "https://github.com/lmarkmann/dataseek"
-  version "0.9.1"
+  version "0.10.0"
   license any_of: ["MIT", "Apache-2.0"]
 
   on_macos do
     on_arm do
-      url "https://github.com/lmarkmann/dataseek/releases/download/v0.9.1/dataseek-aarch64-apple-darwin.tar.gz"
-      sha256 "2e6e6c949231383194e9f15f9318fb49e9132a7cddfc779ebf50c458cc2bf834"
+      url "https://github.com/lmarkmann/dataseek/releases/download/v0.10.0/dataseek-aarch64-apple-darwin.tar.gz"
+      sha256 "21eb544d3572c2e26ce70612d4ab1bb795754a7adf50f870bd7c23349e71d659"
     end
     on_intel do
-      url "https://github.com/lmarkmann/dataseek/releases/download/v0.9.1/dataseek-x86_64-apple-darwin.tar.gz"
-      sha256 "a80fc5fc6b3454f575601321e8995a70752229f3367958b38317035d0a4ad869"
+      url "https://github.com/lmarkmann/dataseek/releases/download/v0.10.0/dataseek-x86_64-apple-darwin.tar.gz"
+      sha256 "d65e35260c08736ef28f110395e6cdcadf68649652d582ab3c09ae5b39cb9b27"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/lmarkmann/dataseek/releases/download/v0.9.1/dataseek-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "748db9420176f8edd80dcc9e066c94d86d35252ea5c7955a034e8b2ba9366c3d"
+      url "https://github.com/lmarkmann/dataseek/releases/download/v0.10.0/dataseek-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "fc719b75e6a4919326571ea244760ca394a9371e03be274a26b0a672b39e01b8"
     end
     on_intel do
-      url "https://github.com/lmarkmann/dataseek/releases/download/v0.9.1/dataseek-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "262db634a822151f14ac8a8bfbae3cd16f94718036c8b3000fed3f206f8e27dd"
+      url "https://github.com/lmarkmann/dataseek/releases/download/v0.10.0/dataseek-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "6c647569299486ea04edff156f665947f080f5c484fa6dab8cef775b38747e85"
     end
   end
 
